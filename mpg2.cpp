@@ -9,6 +9,7 @@ int main()
   string MT = "Miles Traveled";
   string GU = "Gas Used (Gallons)";
   string FEOC = "FUEL EFFICIENCY OF CAR ";
+  string DASH = "- - - - - - - - - - - -";
    
   
   double miles;
@@ -22,7 +23,7 @@ int main()
   cout << setiosflags(ios::right | ios::fixed | ios::showpoint);
   cout << FEP << endl;
   
-  cout << "- - - - - - - - - - - -" << endl;
+  cout << DASH << endl;
   
   cout << MT << setw(10) << ":" <<  setw(7) << setprecision(1) 
        << miles << endl;
